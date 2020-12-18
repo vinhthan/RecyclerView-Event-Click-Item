@@ -40,5 +40,8 @@ public class MainActivity extends AppCompatActivity implements OnClick {
     @Override
     public void OnClick(int position) {
         Toast.makeText(this, "Position "+ position, Toast.LENGTH_SHORT).show();
+        //Nếu lỗi k click item dc thì xem lại trong item.xml xem có để android:clickable="true" k? nếu có thì bỏ đi hoặc thay bằng bên dưới
+        //android:clickable="false"
+        //android:focusable="false"
     }
 }
